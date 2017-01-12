@@ -1,0 +1,16 @@
+name = "light-hugo-notes"
+license = "MPL2"
+licenselink = "https://github.com/blamarche/light-hugo-notes/blob/master/LICENSE"
+description = "Minimal personal notebook"
+homepage = "https://github.com/blamarche/light-hugo-notes"
+tags = ["Responsive", "nojs", "Minimal", "normalize", "Light", "White", "Notebook"]
+features = ["blog", "pages"]
+
+[author]
+  name = "Tony Blyler"
+  homepage = "https://tonyblyler.com"
+
+
+[author]
+  name = "Brendan LaMarche"
+  homepage = "https://www.electricfalon.net"

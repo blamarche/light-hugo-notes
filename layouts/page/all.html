@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+	<h1>All</h1>
+	{{ range .Site.Pages }}
+		{{ if eq .Type "post" }}
+			{{ .Render "summary" }}
+		{{ end }}
+	{{ end }}
+{{ partial "footer.html" . }}
