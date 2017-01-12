@@ -4,7 +4,9 @@
 		<div class="links">
 			<a href="/">Home</a>
 			{{ range where .Site.Pages "Type" "!=" "post" }}
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+				{{ if eq .Layout "all" }}
+					<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+				{{ end }}
 			{{ end }}
 			<a href="#top">Top</a>
 		</div>
